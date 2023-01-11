@@ -1,6 +1,6 @@
 echo this is practice
 sh
-echo "\n"
+echo -e "\n"
 cat /etc/passwd | head -2
-echo "\n"
+echo -e "\n"
 grep root /etc/passwd
