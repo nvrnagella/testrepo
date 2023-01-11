@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo this is practice
 sh
 echo -e "\n"
