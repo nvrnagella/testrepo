@@ -8,7 +8,7 @@ useradd roboshop
 echo -e "\e[34m creating app directory\e[0m"
 mkdir /app
 echo -e "\e[35m downloading catalogue content\e[0m"
-curl -oL /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip
+curl -L -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip
 cd /app
 echo -e "\e[36m extracting catalogue content \e[0m"
 unzip /tmp/catalogue.zip
