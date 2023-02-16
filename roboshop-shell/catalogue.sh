@@ -26,4 +26,4 @@ cp ${path_location}/files/mongodb.repo /etc/yum.repos.d/mongo.repo
 echo -e "\e[36m installing mongodb client for loading the schema\e[0m"
 yum install mongodb-org-shell -y
 echo -e "\e[31m loading schema\e[0m"
-mongo --host 172.31.55.71 </app/schema/catalogue.js
+mongo --host mongodb-dev.nvrnagella.online </app/schema/catalogue.js
